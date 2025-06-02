@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #E1EEFB;
+    padding: 20px 0;
+}
+
+.header-phone {
+    font-size: 21px;
+    font-family: Montserrat, sans-serif;
+}
+
+.header-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}

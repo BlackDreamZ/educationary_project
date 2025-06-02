@@ -1,0 +1,10 @@
+.navbar {
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+}
+
+.navbar a {
+    text-decoration: none;
+}

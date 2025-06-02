@@ -1,0 +1,19 @@
+.advertiseBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.advertiseBlock-headline, .advertiseBlock-description {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.advertiseBlock-button {
+    width: 162px;
+    height: 52px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
