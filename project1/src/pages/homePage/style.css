@@ -1,13 +1,32 @@
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+.homePage .sectionHeadline {
+    @media screen and (max-width: 1300px) {
+        text-align: center;
+    }
+}
+
 .homePage-advertise {
     display: grid;
-    grid-template-rows: repeat(2, 1fr);
     grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
     justify-content: stretch;
     justify-items: stretch;
-    grid-template-areas: "advertiseBlock1" "advertiseBlock2" "advertiseBlock3";
+    grid-template-areas: "advertiseBlock1 advertiseBlock2"
+                         "advertiseBlock1 advertiseBlock3";
     height: 380px;
     color: white;
     font-family: Montserrat, sans-serif;
+    @media screen and (max-width: 1300px) {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        height: 100%;
+    }
 }
 
 .homePage-advertise .advertiseBlock:nth-child(1) {
@@ -20,4 +39,15 @@
 
 .homePage-advertise .advertiseBlock:nth-child(3) {
     grid-area: advertiseBlock3;
+}
+
+.homePage-properties {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: space-between;
+    @media screen and (max-width: 1320px){
+        justify-content: center;
+    }
 }

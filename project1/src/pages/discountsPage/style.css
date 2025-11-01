@@ -1,0 +1,28 @@
+.discountPage {
+    font-family: Montserrat;
+
+}
+
+.discountPage .productsBlock {
+    gap: 2px;
+    @media screen and (max-width: 1220px) {
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+.discountPage .productsBlock .itemProduct .discountTag:nth-child(1) {
+    background-color: red;
+    color: white;
+}
+
+.discountPage-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 100%;
+    background-color: #2B7BC6;
+    color: white;
+    font-size: 16px;
+}

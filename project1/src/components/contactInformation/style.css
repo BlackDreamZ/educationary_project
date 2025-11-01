@@ -1,0 +1,31 @@
+.contactInformation {
+    color: black;
+}
+
+.contactInformation-title {
+    font-size: 21px;
+    line-height: 40px;
+    margin-bottom: 18px;
+}
+
+.contactInformation-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 12px 0;
+}
+
+.contactInformation-button {
+    color: #1061AB;
+    border: #1061AB solid 1px;
+    border-radius: 4px;
+    padding: 6px 12px;
+    background: none;
+    cursor: pointer;
+}
+
+.contactInformation-socials {
+    display: flex;
+    margin: 20px 0;
+    gap: 30px;
+}

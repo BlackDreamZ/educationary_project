@@ -1,0 +1,12 @@
+.categoriesBlock {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.categoryBlock {
+    color: #2B7BC6;
+    background-color: white;
+    padding: 6px 16px;
+    border-radius: 4px;
+}

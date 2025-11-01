@@ -1,4 +1,12 @@
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
 body {
+  position: relative;
+  background-color: #F3F9FF;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +18,16 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.container {
+  position: relative;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 40px 40px 40px;
+}
+
+.sectionHeadline {
+  text-decoration: underline #1061AB;
+  margin: 40px 0;
 }

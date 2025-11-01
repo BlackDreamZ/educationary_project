@@ -11,6 +11,7 @@
 }
 
 .buttonWithIcon-button {
+    cursor: pointer;
     color: blue;
     font-size: 14px;
     text-decoration: underline dashed blue;

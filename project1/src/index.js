@@ -11,14 +11,15 @@ import PopularBrandsPage from "./pages/popularBrandsPage";
 import NotFoundPage from "./pages/notFoundPage";
 import './normalize.css';
 import './index.css';
+import Footer from "./components/footer";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 
 root.render(
     <BrowserRouter>
-        <div>
-            <Header/>
+        <Header/>
+        <div className="container">
             <Routes>
                 <Route path="/" element={<HomePage/>}/>
                 <Route path="/collections-tiles" element={<CollectionTilePage/>}/>
@@ -29,5 +30,6 @@ root.render(
                 <Route path="*" element={<NotFoundPage/>}/>
             </Routes>
         </div>
+        <Footer/>
     </BrowserRouter>
 );

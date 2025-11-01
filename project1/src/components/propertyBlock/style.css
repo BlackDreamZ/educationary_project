@@ -1,0 +1,15 @@
+.propertyBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.propertyBlock-img {
+    width: 64px;
+    height: 64px;
+}
+
+.propertyBlock-text {
+    max-width: 140px;
+}

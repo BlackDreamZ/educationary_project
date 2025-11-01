@@ -1,11 +1,17 @@
 import React from "react";
 import AdvertiseBlock from "../../components/advertiseBlock";
 import './style.css';
+import PropertyBlock from "../../components/propertyBlock";
+import truck from "../../assets/icons/properties/truck.png";
+import loaderCar from "../../assets/icons/properties/loaderCar.png";
+import rubleCurrency from "../../assets/icons/properties/rubleCurrency.png";
+import shield from "../../assets/icons/properties/shield.png";
+import like from "../../assets/icons/properties/like.png";
 
 export const HomePage = () => {
     return <div className="homePage">
 
-        <h2> Главная</h2>
+        <h2 className="sectionHeadline"> Главная</h2>
 
         <div className="homePage-advertise">
 
@@ -30,7 +36,27 @@ export const HomePage = () => {
         </div>
 
         <div className="homePage-properties">
-
+            <PropertyBlock
+                src={truck}
+                text="Быстрая доставка
+по Москве и в любой регион России"
+            />
+            <PropertyBlock
+                src={shield}
+                text="Все товары имеют официальную гарантию производителя"
+            />
+            <PropertyBlock
+                src={loaderCar}
+                text="Более 100 000 товаров"
+            />
+            <PropertyBlock
+                src={rubleCurrency}
+                text="Любой способ оплаты"
+            />
+            <PropertyBlock
+                src={like}
+                text="Высокие оценки клиентов"
+            />
         </div>
 
     </div>

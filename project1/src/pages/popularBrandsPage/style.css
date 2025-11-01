@@ -1,0 +1,23 @@
+.popularBrands .sectionHeadline {
+    @media screen and (max-width: 1374px){
+        text-align: center;
+    }
+}
+
+.popularBrands-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    @media screen and (max-width: 1374px){
+        justify-content: center;
+    }
+}
+
+.imageBrand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 240px;
+    height: 130px;
+}

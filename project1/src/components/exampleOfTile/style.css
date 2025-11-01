@@ -1,0 +1,20 @@
+.exampleOfTile {
+    min-width: 240px;
+    min-height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    font-family: Montserrat, sans-serif;
+    color: white;
+    cursor: pointer;
+}
+
+.exampleOfTile-content h3 {
+    padding: 14px 20px;
+    background-color: #3BB9B8;
+}
+
+.exampleOfTile-content p {
+    padding: 10px 0 10px 20px;
+}

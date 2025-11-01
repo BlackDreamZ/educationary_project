@@ -1,0 +1,13 @@
+
+.articlesPage .sectionHeadline {
+    @media screen and (max-width: 1355px){
+        text-align: center;
+    }
+}
+
+.articleItems {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}

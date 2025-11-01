@@ -1,0 +1,12 @@
+.addressBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.addressBlock-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: black;
+}
